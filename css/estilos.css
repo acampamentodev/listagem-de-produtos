@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #18181A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 630px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 48px;
+    color: #EBEE00;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 630px;
+    background-color: #242526;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #111111;
+    margin-bottom: 30px;
+}
+
+.card .img_container {
+    display: flex;
+    align-items: center;
+}
+
+.card .img_container img {
+    width: 218px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.card .product_description {
+    width: 280px;
+    padding: 30px 0;
+}
+
+.card .product_description h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.card .product_description .old_price {
+    color: #646464;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.card .product_description .new_price {
+    color: #EBEE00;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.buttons_container {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.buy_button {
+    width: 177px;
+    text-align: center;
+    background-color: #3A3B3C;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.like_button {
+    width: 65px;
+    text-align: center;
+    background-color: #3A3B3C;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+}
+
+.like_button svg {
+    width: 16px;
+}
+
+.like_button.active {
+    background-color: #FF4D4D;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #BCBCBC;
+}
